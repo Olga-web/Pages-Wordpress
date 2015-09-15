@@ -1,0 +1,30 @@
+<script>
+jQuery(function($){
+$( ".newser" ).each(function() {
+var t = $(this).attr('href');
+var s = t.split('?p=');
+$(this).attr('href','http://test16.oxbox.su/?page_id=374&poster='+s[1]);
+});
+$( "#lcp_instance_1 li p a" ).each(function() {
+var t = $(this).attr('href');
+var s = t.split('?p=');
+$(this).attr('href','http://test16.oxbox.su/?page_id=437&poster='+s[1]);
+});
+$( ".lcp_catlist2 a" ).each(function() {
+var t = $(this).attr('href');
+var s = t.split('?p=');
+$(this).attr('href','http://test16.oxbox.su/?page_id=374&poster='+s[1]);
+});
+$( ".lcp_service a" ).each(function() {
+var t = $(this).attr('href');
+var s = t.split('?p=');
+$(this).attr('href','http://test16.oxbox.su/?page_id=502&poster='+s[1]);
+});
+$( ".category-service a" ).each(function() {
+var t = $(this).attr('href');
+var s = t.split('?p=');
+$(this).attr('href','http://test16.oxbox.su/?page_id=502&poster='+s[1]);
+});
+});
+
+</script>
